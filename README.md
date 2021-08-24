@@ -1,7 +1,7 @@
 # DocuMenu
 Example App that displays a Restaurant Menu
 
-<img src="https://user-images.githubusercontent.com/8472089/130642141-fae9fb96-043b-4a93-bcfc-1a83878a2fd8.PNG" width="48">
+<img src="https://user-images.githubusercontent.com/8472089/130642141-fae9fb96-043b-4a93-bcfc-1a83878a2fd8.PNG" width="250">
 
 
 Technical Design Considerations
