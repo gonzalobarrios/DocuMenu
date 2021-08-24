@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AC7B2757872F4FF6B03364A /* Pods_DocuMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9104B91E4F98C2BB3053AA0F /* Pods_DocuMenu.framework */; };
 		EA2CC12626CD402600EEB83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC12526CD402600EEB83C /* AppDelegate.swift */; };
-		EA2CC12826CD402600EEB83C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC12726CD402600EEB83C /* SceneDelegate.swift */; };
 		EA2CC12A26CD402600EEB83C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC12926CD402600EEB83C /* ViewController.swift */; };
 		EA2CC12D26CD402600EEB83C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC12B26CD402600EEB83C /* Main.storyboard */; };
 		EA2CC12F26CD403000EEB83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC12E26CD403000EEB83C /* Assets.xcassets */; };
 		EA2CC13226CD403000EEB83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC13026CD403000EEB83C /* LaunchScreen.storyboard */; };
+		EA2CC14B26CD4AD400EEB83C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC14A26CD4AD400EEB83C /* RequestManager.swift */; };
+		EA2CC14E26CD4B0900EEB83C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC14D26CD4B0900EEB83C /* Item.swift */; };
+		EA2CC15126CD4B3000EEB83C /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC15026CD4B3000EEB83C /* MenuSection.swift */; };
+		EA2CC15426CD4C7D00EEB83C /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC15326CD4C7D00EEB83C /* Price.swift */; };
+		EA2CC15726CD4F6800EEB83C /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC15626CD4F6800EEB83C /* Restaurant.swift */; };
+		EA2CC15D26CDD28200EEB83C /* MenuSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC15B26CDD28200EEB83C /* MenuSectionCollectionViewCell.swift */; };
+		EA2CC15E26CDD28200EEB83C /* MenuSectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC15C26CDD28200EEB83C /* MenuSectionCollectionViewCell.xib */; };
+		EA2CC16126CDDE7100EEB83C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC16026CDDE7100EEB83C /* Menu.swift */; };
+		EA2CC16426CDEA3D00EEB83C /* RequestRestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC16326CDEA3D00EEB83C /* RequestRestaurantResponse.swift */; };
+		EA2CC16C26D1E4CA00EEB83C /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC16A26D1E4CA00EEB83C /* ItemsTableViewCell.swift */; };
+		EA2CC16D26D1E4CA00EEB83C /* ItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC16B26D1E4CA00EEB83C /* ItemsTableViewCell.xib */; };
+		EA2CC17A26D480A700EEB83C /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC17926D480A700EEB83C /* PlayfairDisplay-Regular.ttf */; };
+		EA2CC17D26D4840C00EEB83C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC17C26D4840C00EEB83C /* Montserrat-Regular.ttf */; };
+		EA2CC18226D489C600EEB83C /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC18126D489C600EEB83C /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E3BE7AD90E7A5AF7B169389 /* Pods-DocuMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuMenu.release.xcconfig"; path = "Target Support Files/Pods-DocuMenu/Pods-DocuMenu.release.xcconfig"; sourceTree = "<group>"; };
+		61A6CA6BE8B2908E7EE741C5 /* Pods-DocuMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocuMenu.debug.xcconfig"; path = "Target Support Files/Pods-DocuMenu/Pods-DocuMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		9104B91E4F98C2BB3053AA0F /* Pods_DocuMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocuMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2CC12226CD402600EEB83C /* DocuMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2CC12526CD402600EEB83C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA2CC12726CD402600EEB83C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA2CC12926CD402600EEB83C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA2CC12C26CD402600EEB83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2CC12E26CD403000EEB83C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2CC13126CD403000EEB83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2CC13326CD403000EEB83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2CC14A26CD4AD400EEB83C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		EA2CC14D26CD4B0900EEB83C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EA2CC15026CD4B3000EEB83C /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		EA2CC15326CD4C7D00EEB83C /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		EA2CC15626CD4F6800EEB83C /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		EA2CC15B26CDD28200EEB83C /* MenuSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA2CC15C26CDD28200EEB83C /* MenuSectionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuSectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA2CC16026CDDE7100EEB83C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		EA2CC16326CDEA3D00EEB83C /* RequestRestaurantResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRestaurantResponse.swift; sourceTree = "<group>"; };
+		EA2CC16A26D1E4CA00EEB83C /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		EA2CC16B26D1E4CA00EEB83C /* ItemsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsTableViewCell.xib; sourceTree = "<group>"; };
+		EA2CC17926D480A700EEB83C /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		EA2CC17C26D4840C00EEB83C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../../Downloads/Montserrat (2)/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EA2CC18126D489C600EEB83C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC7B2757872F4FF6B03364A /* Pods_DocuMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43F8AAE06560E1D2F4806304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A6CA6BE8B2908E7EE741C5 /* Pods-DocuMenu.debug.xcconfig */,
+				5E3BE7AD90E7A5AF7B169389 /* Pods-DocuMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B48F934D40390C8BD185590A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9104B91E4F98C2BB3053AA0F /* Pods_DocuMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA2CC11926CD402600EEB83C = {
 			isa = PBXGroup;
 			children = (
 				EA2CC12426CD402600EEB83C /* DocuMenu */,
 				EA2CC12326CD402600EEB83C /* Products */,
+				43F8AAE06560E1D2F4806304 /* Pods */,
+				B48F934D40390C8BD185590A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,68 @@
 		EA2CC12426CD402600EEB83C /* DocuMenu */ = {
 			isa = PBXGroup;
 			children = (
+				EA2CC18026D489AB00EEB83C /* Extensions */,
+				EA2CC13D26CD408200EEB83C /* Model */,
+				EA2CC13C26CD407C00EEB83C /* View */,
+				EA2CC13B26CD406E00EEB83C /* Networking */,
 				EA2CC12526CD402600EEB83C /* AppDelegate.swift */,
-				EA2CC12726CD402600EEB83C /* SceneDelegate.swift */,
 				EA2CC12926CD402600EEB83C /* ViewController.swift */,
 				EA2CC12B26CD402600EEB83C /* Main.storyboard */,
 				EA2CC12E26CD403000EEB83C /* Assets.xcassets */,
+				EA2CC17426D47EC500EEB83C /* Fonts */,
 				EA2CC13026CD403000EEB83C /* LaunchScreen.storyboard */,
 				EA2CC13326CD403000EEB83C /* Info.plist */,
 			);
 			path = DocuMenu;
+			sourceTree = "<group>";
+		};
+		EA2CC13B26CD406E00EEB83C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EA2CC14A26CD4AD400EEB83C /* RequestManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EA2CC13C26CD407C00EEB83C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA2CC15B26CDD28200EEB83C /* MenuSectionCollectionViewCell.swift */,
+				EA2CC15C26CDD28200EEB83C /* MenuSectionCollectionViewCell.xib */,
+				EA2CC16A26D1E4CA00EEB83C /* ItemsTableViewCell.swift */,
+				EA2CC16B26D1E4CA00EEB83C /* ItemsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA2CC13D26CD408200EEB83C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA2CC14D26CD4B0900EEB83C /* Item.swift */,
+				EA2CC15026CD4B3000EEB83C /* MenuSection.swift */,
+				EA2CC15326CD4C7D00EEB83C /* Price.swift */,
+				EA2CC15626CD4F6800EEB83C /* Restaurant.swift */,
+				EA2CC16026CDDE7100EEB83C /* Menu.swift */,
+				EA2CC16326CDEA3D00EEB83C /* RequestRestaurantResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA2CC17426D47EC500EEB83C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA2CC17C26D4840C00EEB83C /* Montserrat-Regular.ttf */,
+				EA2CC17926D480A700EEB83C /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EA2CC18026D489AB00EEB83C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA2CC18126D489C600EEB83C /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA2CC13626CD403000EEB83C /* Build configuration list for PBXNativeTarget "DocuMenu" */;
 			buildPhases = (
+				6AC93C3F44DFF1A95E5B0CE5 /* [CP] Check Pods Manifest.lock */,
 				EA2CC11E26CD402600EEB83C /* Sources */,
 				EA2CC11F26CD402600EEB83C /* Frameworks */,
 				EA2CC12026CD402600EEB83C /* Resources */,
+				ACFAAF8335D22EE8BFBEA36D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +229,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2CC17D26D4840C00EEB83C /* Montserrat-Regular.ttf in Resources */,
+				EA2CC17A26D480A700EEB83C /* PlayfairDisplay-Regular.ttf in Resources */,
 				EA2CC13226CD403000EEB83C /* LaunchScreen.storyboard in Resources */,
+				EA2CC15E26CDD28200EEB83C /* MenuSectionCollectionViewCell.xib in Resources */,
 				EA2CC12F26CD403000EEB83C /* Assets.xcassets in Resources */,
 				EA2CC12D26CD402600EEB83C /* Main.storyboard in Resources */,
+				EA2CC16D26D1E4CA00EEB83C /* ItemsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AC93C3F44DFF1A95E5B0CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocuMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFAAF8335D22EE8BFBEA36D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocuMenu/Pods-DocuMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocuMenu/Pods-DocuMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocuMenu/Pods-DocuMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA2CC11E26CD402600EEB83C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2CC15126CD4B3000EEB83C /* MenuSection.swift in Sources */,
+				EA2CC14E26CD4B0900EEB83C /* Item.swift in Sources */,
+				EA2CC14B26CD4AD400EEB83C /* RequestManager.swift in Sources */,
+				EA2CC16426CDEA3D00EEB83C /* RequestRestaurantResponse.swift in Sources */,
+				EA2CC15726CD4F6800EEB83C /* Restaurant.swift in Sources */,
 				EA2CC12A26CD402600EEB83C /* ViewController.swift in Sources */,
 				EA2CC12626CD402600EEB83C /* AppDelegate.swift in Sources */,
-				EA2CC12826CD402600EEB83C /* SceneDelegate.swift in Sources */,
+				EA2CC18226D489C600EEB83C /* UIColor+Extensions.swift in Sources */,
+				EA2CC16C26D1E4CA00EEB83C /* ItemsTableViewCell.swift in Sources */,
+				EA2CC16126CDDE7100EEB83C /* Menu.swift in Sources */,
+				EA2CC15426CD4C7D00EEB83C /* Price.swift in Sources */,
+				EA2CC15D26CDD28200EEB83C /* MenuSectionCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +443,7 @@
 		};
 		EA2CC13726CD403000EEB83C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A6CA6BE8B2908E7EE741C5 /* Pods-DocuMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +463,7 @@
 		};
 		EA2CC13826CD403000EEB83C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3BE7AD90E7A5AF7B169389 /* Pods-DocuMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
