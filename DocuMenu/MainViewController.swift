@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  DocuMenu
 //
 //  Created by Gonzalo Barrios on 8/18/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     // MARK: IBOutlets & Properties
     @IBOutlet weak var restaurantNameLabel: UILabel!
@@ -39,8 +39,8 @@ class ViewController: UIViewController {
 
     // MARK: Private func
     private func setUI() {
-        collectionView.register(UINib(nibName: "MenuSectionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "MenuSectionCellReuseId")
-        tableView.register(UINib(nibName: "ItemsTableViewCell", bundle: nil), forCellReuseIdentifier: "ItemsTableViewCellReuseId")
+        collectionView.register(UINib(nibName: "MenuSectionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: MenuSectionCollectionViewCell.reuseId)
+        tableView.register(UINib(nibName: "ItemsTableViewCell", bundle: nil), forCellReuseIdentifier: ItemsTableViewCell.reuseId)
         tableView.tableFooterView = UIView()
     }
 
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
 }
 
 // MARK: Extensions
-extension ViewController: UICollectionViewDelegate {
+extension MainViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
@@ -74,14 +74,14 @@ extension ViewController: UICollectionViewDelegate {
     }
 }
 
-extension ViewController: UICollectionViewDataSource {
+extension MainViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return restaurant?.menus.first?.menuSections.count ?? 0
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MenuSectionCellReuseId", for: indexPath) as? MenuSectionCollectionViewCell else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MenuSectionCollectionViewCell.reuseId, for: indexPath) as? MenuSectionCollectionViewCell else { return UICollectionViewCell() }
 
         if let menuSection = restaurant?.menus.first?.menuSections[indexPath.row] {
             cell.configure(withMenuSectionName: menuSection.name)
@@ -98,14 +98,14 @@ extension ViewController: UICollectionViewDataSource {
 
 }
 
-extension ViewController: UITableViewDataSource {
+extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restaurant?.menus.first?.menuSections[selectedMenuSectionIndex.row].items.count ?? 0
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ItemsTableViewCellReuseId", for: indexPath) as? ItemsTableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ItemsTableViewCell.reuseId, for: indexPath) as? ItemsTableViewCell else { return UITableViewCell() }
 
         if let item = restaurant?.menus.first?.menuSections[selectedMenuSectionIndex.row].items[indexPath.row] {
             cell.configure(withItem: item)

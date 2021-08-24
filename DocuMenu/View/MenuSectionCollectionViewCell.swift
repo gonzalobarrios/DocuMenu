@@ -11,6 +11,9 @@ class MenuSectionCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var selectedSectionView: UIView!
     @IBOutlet weak var sectionNameLabel: UILabel!
+
+    static let reuseId = "MenuSectionCellReuseId"
+
     var selectedCell = false {
         didSet {
             if selectedCell {

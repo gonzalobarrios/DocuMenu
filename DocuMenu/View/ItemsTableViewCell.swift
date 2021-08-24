@@ -13,6 +13,8 @@ class ItemsTableViewCell: UITableViewCell {
     @IBOutlet weak var itemDescription: UILabel!
     @IBOutlet weak var itemPrice: UILabel!
 
+    static let reuseId = "ItemsTableViewCellReuseId"
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

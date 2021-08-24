@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AC7B2757872F4FF6B03364A /* Pods_DocuMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9104B91E4F98C2BB3053AA0F /* Pods_DocuMenu.framework */; };
 		EA2CC12626CD402600EEB83C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC12526CD402600EEB83C /* AppDelegate.swift */; };
-		EA2CC12A26CD402600EEB83C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC12926CD402600EEB83C /* ViewController.swift */; };
+		EA2CC12A26CD402600EEB83C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2CC12926CD402600EEB83C /* MainViewController.swift */; };
 		EA2CC12D26CD402600EEB83C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC12B26CD402600EEB83C /* Main.storyboard */; };
 		EA2CC12F26CD403000EEB83C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC12E26CD403000EEB83C /* Assets.xcassets */; };
 		EA2CC13226CD403000EEB83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2CC13026CD403000EEB83C /* LaunchScreen.storyboard */; };
@@ -35,7 +35,7 @@
 		9104B91E4F98C2BB3053AA0F /* Pods_DocuMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocuMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2CC12226CD402600EEB83C /* DocuMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2CC12526CD402600EEB83C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA2CC12926CD402600EEB83C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA2CC12926CD402600EEB83C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EA2CC12C26CD402600EEB83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2CC12E26CD403000EEB83C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2CC13126CD403000EEB83C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 				EA2CC13C26CD407C00EEB83C /* View */,
 				EA2CC13B26CD406E00EEB83C /* Networking */,
 				EA2CC12526CD402600EEB83C /* AppDelegate.swift */,
-				EA2CC12926CD402600EEB83C /* ViewController.swift */,
+				EA2CC12926CD402600EEB83C /* MainViewController.swift */,
 				EA2CC12B26CD402600EEB83C /* Main.storyboard */,
 				EA2CC12E26CD403000EEB83C /* Assets.xcassets */,
 				EA2CC17426D47EC500EEB83C /* Fonts */,
@@ -293,7 +293,7 @@
 				EA2CC14B26CD4AD400EEB83C /* RequestManager.swift in Sources */,
 				EA2CC16426CDEA3D00EEB83C /* RequestRestaurantResponse.swift in Sources */,
 				EA2CC15726CD4F6800EEB83C /* Restaurant.swift in Sources */,
-				EA2CC12A26CD402600EEB83C /* ViewController.swift in Sources */,
+				EA2CC12A26CD402600EEB83C /* MainViewController.swift in Sources */,
 				EA2CC12626CD402600EEB83C /* AppDelegate.swift in Sources */,
 				EA2CC18226D489C600EEB83C /* UIColor+Extensions.swift in Sources */,
 				EA2CC16C26D1E4CA00EEB83C /* ItemsTableViewCell.swift in Sources */,
